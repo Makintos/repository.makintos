@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.acestream.sports"
-       version="1.0.4"
+       version="1.0.5"
        name="Acestream Sports"
        provider-name="Iván Makintos">
     <requires>
@@ -18,25 +18,35 @@
         <description lang="es">Todo el deporte en el salón de tu casa. Descarga las agendas de Arenavision.in y otras páginas web y reproduce los enlaces en Kodi.
         </description>
         <disclaimer lang="en">Use at your own risk</disclaimer>
-        <disclaimer lang="es">Úsalo bajo tu propia responsabilidad</disclaimer>
+        <disclaimer lang="es">2017</disclaimer>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
-            <screenshot>resources\screenshots\screenshot-01.jpg</screenshot>
-            <screenshot>resources\screenshots\screenshot-02.jpg</screenshot>
-            <screenshot>resources\screenshots\screenshot-03.jpg</screenshot>
-            <screenshot>resources\screenshots\screenshot-04.jpg</screenshot>
-            <screenshot>resources\screenshots\screenshot-05.jpg</screenshot>
+            <screenshot>https://raw.githubusercontent.com/Makintos/plugin.video.acestream.sports/master/resources/screenshots/screenshot-01.jpg</screenshot>
+            <screenshot>https://raw.githubusercontent.com/Makintos/plugin.video.acestream.sports/master/resources/screenshots/screenshot-02.jpg</screenshot>
+            <screenshot>https://raw.githubusercontent.com/Makintos/plugin.video.acestream.sports/master/resources/screenshots/screenshot-03.jpg</screenshot>
+            <screenshot>https://raw.githubusercontent.com/Makintos/plugin.video.acestream.sports/master/resources/screenshots/screenshot-04.jpg</screenshot>
+            <screenshot>https://raw.githubusercontent.com/Makintos/plugin.video.acestream.sports/master/resources/screenshots/screenshot-05.jpg</screenshot>
         </assets>
-        <news>Version 1.0.4
-- Corregido addon.xml
+        <news>Version 1.0.5
+- Nuevo scrapper para Torrent-TV.ru
+- El scrapper de Arenavision ahora busca siguiendo patrones las URL de la agenda y los canales
+- Ahora se comprueba la versión del servidor y, si es superior, fuerza la actualización del addon
+- Añadidas las opciones del addon:
+    * Copiar el nombre del partido, evento o canal en la descripción
+    * Mostrar canales para adultos
+    * Ver notificaciones al actualizar
+    * Duración en segundos de las notificaciones
+
+Version 1.0.4
+- Varias correcciones en addon.xml
 
 Version 1.0.3
 - Añadido al repositorio
-- Añadido auto-update
+- Ahora se autoactualiza
 
 Version 1.0.2
-- Arreglado el problema con la codificación de caracteres
+- Arreglados varios problemas con la codificación de caracteres
 
 Version 1.0.1
 - Versión inicial</news>
